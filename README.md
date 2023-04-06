@@ -50,16 +50,16 @@ print(Add(1, 2)) -- here, we call the function we defined above and pass the two
 ## 3. - Strings, Integers, Tables, and Booleans
 In Lua, there's 3 main types of data: Strings, Integers, and Tables. Each has it's own purpose and is what you'll be using in almost all your lines of code, in one way or another.
 
-Strings:
+- Strings:
 Everything I have written so far can be defined as a string: Text, essentially. It doesn't matter if the text contains UPPERCASE LETTERS LIKE THIS, or lower case letters like this, 0r numb3r6 l1k3 th15. It will all be inteperated as a string, as long as you specifically tell Lua how to inteperate it.
 
-Integers:
+- Integers:
 Integers are a lot easier to understand. They're numbers. Formula's, mathematical equations, and more will be inteperated as a integer by Lua. This is why you can do something like print(1+2) and it won't literally print '1+2', but instead 3.
 
-Tables:
+- Tables:
 Tables are by far the most complicated and will take a while to master. Essentially, you can think of tables as all 3 of these in the same variable. You can store strings, integers, and other tables in a table, and access it. This is especially useful for more complicated code and will make life a lot easier; and minimize the use of defining variables.
 
-Booleans:
+- Booleans:
 You can think of a boolean as a true or false, or a 1 or 0. A boolean will always be one of two values and will most commonly be used in conditions.
 
 Here's an example of how to use all 4:
