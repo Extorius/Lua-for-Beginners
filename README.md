@@ -152,3 +152,42 @@ local v3 = not v1 -- here, we say that v3 is equal to not v1, or pretty much the
 print(v2) -- prints 1
 print(v3) -- prints false
 ```
+
+## Quizes
+### Level 1: Print
+Write a program that prints 'Hello world!'
+* Hint: You can use the built in `print` function in Lua, and pass the string 'Hello world!' as the first parameter
+
+#### Answer
+Look away if you don't want the answer to be spoiled!
+
+```lua
+print('Hello world!')
+```
+
+### Level 2: Variables
+Write a program that stores a variable equal to 'Hello world!', and then prints it
+* Hint: You can use the denonimator `local` to define a variable
+
+#### Answer
+Look away if you don't want to the answer to be spoiled!
+
+```lua
+local v1 = 'Hello world!'
+print(v1)
+```
+
+### Level 3: Functions
+Write a program that defines a function that accepts two parameters, and returns the first parameter plus the second parameter
+* Hint: You can use the denonimator `return` to return a value from a function
+
+#### Answer
+Look away if you don't want to the answer to be spoiled!
+
+```lua
+local function Add(number1, number2)
+    return number1 + number2
+end
+
+print(Add(1, 2))
+```
