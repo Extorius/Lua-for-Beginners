@@ -4,8 +4,8 @@ Essentially a explanation of the basics of Lua, such as tables, functions, strin
 ## 1. - Variables
 Variables are what you use to store data. You can think of a variable as a piece of data that you put down, and you can pick up and use later.
 There's two types of variables:
-1. Local
-2. Global
+- 1. Local
+- 2. Global
 
 Essentially, a global variable can be called anywhere from any thread (useful for functions and threadings), but sometimes you want to refresh a variable without getting rid of it's original value. This is where local variables come into place.
 A local variable will define a value that's unique to it's thread; meaning you can have multiple variables in different threads, with the same name but different values.
