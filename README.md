@@ -161,9 +161,9 @@ Write a program that prints 'Hello world!'
 #### Answer
 Look away if you don't want the answer to be spoiled!
 
-```lua
+<details><summary>Show Answer</summary><pre><code>-- Note: There is other ways of doing this, and no one way is correct. If it works, it works.
 print('Hello world!')
-```
+</code></pre></details>
 
 ### Level 2: Variables
 Write a program that stores a variable equal to 'Hello world!', and then prints it
@@ -172,10 +172,10 @@ Write a program that stores a variable equal to 'Hello world!', and then prints 
 #### Answer
 Look away if you don't want the answer to be spoiled!
 
-```lua
+<details><summary>Show Answer</summary><pre><code>-- Note: There is other ways of doing this, and no one way is correct. If it works, it works.
 local v1 = 'Hello world!'
 print(v1)
-```
+</code></pre></details>
 
 ### Level 3: Functions
 Write a program that defines a function that accepts two parameters, and returns the first parameter plus the second parameter
@@ -184,10 +184,10 @@ Write a program that defines a function that accepts two parameters, and returns
 #### Answer
 Look away if you don't want the answer to be spoiled!
 
-```lua
+<details><summary>Show Answer</summary><pre><code>-- Note: There is other ways of doing this, and no one way is correct. If it works, it works.
 local function Add(number1, number2)
     return number1 + number2
 end
 
 print(Add(1, 2))
-```
+</code></pre></details>
